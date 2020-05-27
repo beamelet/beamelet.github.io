@@ -1,0 +1,69 @@
+.main {
+  margin-top: 30px;
+}
+
+#topic {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#topic .number {
+  font-size: 0.75em;  
+  color: #C79B52;
+  width: 100%;
+  float: left;
+}
+#topic .name {
+  font-size: 1em;
+  color: #025946;
+  width: 100%;
+  float: left;
+}
+
+.content {
+  padding: 20px 20px 0px 20px;
+  background: #DEECF0;
+  overflow: auto;
+  border: 1px solid #DEECF0;
+  border-radius: 10px; /* Rounded */
+}
+.image {
+  border: 1px solid #C79B52;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.intro {
+  font-size: 0.75em;   
+}
+
+#part {
+  margin-top: 10px;
+}
+
+#part .header {
+  font-size: 0.75em;
+}
+
+#part .detail {
+  font-size: 0.75em;     
+}
+
+.more {
+  font-size: 0.75em;
+  float: right;
+  color: #C79B52;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  text-shadow: 1px 1px #A9B2B8;
+}
+
+.less {
+  font-size: 0.75em;
+  float: right;  
+  color: #C79B52;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  text-shadow: 1px 1px #A9B2B8;
+}

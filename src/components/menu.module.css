@@ -1,0 +1,24 @@
+.main {
+  float: right;
+  outline: none;
+}
+.group {
+  list-style-type: none;
+  float: right;
+  overflow: hidden;
+  padding: 0px;
+}
+  
+.item {
+  padding-left: 5px;
+  display: inline;
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.open {
+  display: inline-block;
+  font-size: 0.7rem;
+  cursor: pointer;
+  color: #9F392B;
+}

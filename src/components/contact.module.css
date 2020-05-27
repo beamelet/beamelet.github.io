@@ -1,0 +1,70 @@
+html { /* Remove the bouncing effect on scroll */
+  height  : 100%;
+  overflow: hidden;
+  position: relative;
+}
+body { /* Remove the bouncing effect on scroll */
+  height  : 100%;
+  overflow: auto;
+  position: relative;
+}
+#container{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 400px;
+  width: 50%;
+  background: #E8D5B6;
+  border: 2px solid #E8D5B6;
+  border-radius: 5px 5px 0px 0px;
+  -webkit-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.3);
+  box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.3);
+}
+  
+#container .button {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 10px 5px 20px;
+  background-color: #E8D5B6;
+  text-align: center;
+  font-size: 0.75rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.exit {
+  float: right;
+  font-size: 0.75rem;
+  color: #C79B52;
+  text-shadow: 0.5px 0.5px #B8A991;
+}
+  
+#container .body{
+  margin: 0 auto;
+  background: #E8D5B6;
+  padding: 5px 0px 0px 0px;
+  height: 100%;
+  width: 100%;
+  font-size: 0.75rem;
+}
+
+.content {
+  margin: 0;
+  width: 70%;
+  padding: 0px 10px 0px 20px;
+  float: left;
+  background: #E8D5B6;
+}
+
+.icon {
+  height: 100%;
+  max-width: 40px;
+  max-height: 40px;
+  margin-left: 10px;
+}
+  
+  
