@@ -22,7 +22,7 @@ class Menu extends Component {
     const modal = (
         <div className={menu.group}>
           <Link to={`/`} className={menu.item} >HOME</Link>
-          <Link to={`/projects/`} className={menu.item}>FOLIO</Link>
+          <Link to={`/folio/`} className={menu.item}>FOLIO</Link>
           <Link to={`/about/`} className={menu.item}>ABOUT</Link>
         </div>
     );
