@@ -6,4 +6,5 @@ excerpt: "Let physically-impaired people to control electronic appliances with b
 technologies: "Internet of Things, Arduino"
 approach: "Design UX/UI and develop an application on UWP (Universal Windows Platform) to connect with Arduino, allowing the application to turn electronic appliances on and off."
 partners: "Apirak Hoonlor, Sataponn Phutrakul, and Suthida Lertviriyasawat"
+references: "MindMagic"
 ---
