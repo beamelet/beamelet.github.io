@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import contact from "./contact.module.css"
 
 import Linkedin from "../../static/linkedin.png"
@@ -26,7 +27,7 @@ class Contact extends Component {
           <p>EMAIL: nuttha.cs@gmail.com
           <br />LINE: beam.ns</p>
         </div>
-        <a href="https://www.linkedin.com/in/nuttha-sirilertworakul" target="_blank" rel="noopener noreferrer"><img className={contact.icon} src={Linkedin} alt="LinkedIn icon" /></a>
+        <OutboundLink href="https://www.linkedin.com/in/nuttha-sirilertworakul" target="_blank" rel="noopener noreferrer"><img className={contact.icon} src={Linkedin} alt="LinkedIn icon" /></OutboundLink>
       </div>
     );
 

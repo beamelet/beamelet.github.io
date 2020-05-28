@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import about from "./about.module.css"
 import SEO from "../components/seo"
 import CV from "../../content/pdfs/CV_NutthaSirilertworakul_202005.pdf"
@@ -31,7 +32,7 @@ export default function About() {
             to improve the quality of lives on the planet.
           </p>
           <p>
-            Check out my CV/experience <a href={CV} type="application/pdf" target="_blank" rel="noopener noreferrer">here</a>.
+            Check out my CV/experience <OutboundLink href={CV} type="application/pdf" target="_blank" rel="noopener noreferrer">here</OutboundLink>.
           </p>
         </div>    
         </div>

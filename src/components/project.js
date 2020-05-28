@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import project from "./project.module.css"
 
 class Project extends Component {
@@ -41,7 +42,7 @@ class Project extends Component {
     else
       return (
         <div id={project.part}> 
-          <a className={project.header} href={require("../../content/pdfs/" + props.references + ".pdf")} type="application/pdf" target="_blank" rel="noopener noreferrer">REFERENCES</a> 
+          <OutboundLink className={project.header} href={require("../../content/pdfs/" + props.references + ".pdf")} type="application/pdf" target="_blank" rel="noopener noreferrer">REFERENCES</OutboundLink> 
         </div>
       )
   }

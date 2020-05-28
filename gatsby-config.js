@@ -12,6 +12,14 @@ module.exports = {
     author: `NUTTHA SIRILERTWORAKUL`,
   },
   plugins: [
+    { // Make sure this plugin is first in the array of plugins since it consumes much loading time
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-167861095-1",
+        // this option places the tracking script into the head of the DOM
+        head: true,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
