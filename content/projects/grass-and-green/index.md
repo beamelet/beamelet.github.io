@@ -1,5 +1,5 @@
 ---
-id: "03"
+id: "06"
 title: "Is it a park or a garden?"
 image: "grass-and-green"
 excerpt: "Help volunteers on OpenStreetMap clean the classes of map entities by suggesting likely classes to the volunteers. The focus is to clean the green entities on the map. The classes of green entities can be grass, garden, park, meadow, forest, etc."

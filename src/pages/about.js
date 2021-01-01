@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import about from "./about.module.css"
 import SEO from "../components/seo"
-import CV from "../../content/pdfs/CV_NutthaSirilertworakul_202005.pdf"
+import CV from "../../content/pdfs/CV_NutthaSirilertworakul.pdf"
 
 export default function About() {
   return (

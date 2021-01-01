@@ -1,5 +1,5 @@
 ---
-id: "02"
+id: "03"
 title: "How much to spend on advertising?"
 image: "net-contribution-prediction"
 excerpt: "Predict customer net contribution from pay-per-click channel. The prediction is used as an input for decision making on advertising budget."

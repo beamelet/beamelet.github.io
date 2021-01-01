@@ -32,7 +32,7 @@ export default function Home({data}) {
         <Profile
           avatar={avatar}
           name={data.site.siteMetadata.author}
-          description="Data Analyst | Strategist | Consultant"
+          description="Product Manager | Consultant | Data Analyst"
         />
         <Intro 
           header="Hello, I am..."
